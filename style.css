@@ -2,6 +2,10 @@
     background-color: #d1e6ff;
     color: #5978b2;
 }
+a {
+    color: #ffb1b4;
+    background-color: #ffffff;
+}
 h1 {
     background-color: #5978b2;
     color: #ffffff;
@@ -19,7 +23,9 @@ h2 {
     font-family: sans-serif;
 }
 #icon {
-    width: 100px;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .text {
     text-align: center;
@@ -30,4 +36,10 @@ h2 {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+}
+#score {
+    background-color: #ffffff;
+}
+#talk {
+    background-color: #ffffff;
 }
