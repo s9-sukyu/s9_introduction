@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>s9の自己紹介</title>
 </head>
 <body>
-    <h1>s9</h1>
-    <img src="./icon.png" alt="アイコン" id="icon">
+    <h1>s9の自己紹介</h1>
+    <div class="itemized">すきゅう、と読みます。よろしくね。<br>
+    <img src="./icon.png" alt="アイコン" id="icon"></div>
     <h2>Information</h2>
-    <ul>
-        <li>名前: s9（すきゅう）</li>
-        <li>所属: 地球</li>
-        <li>趣味: VRChat</li>
-        たのしいよ
-    </ul>
+    <div class="itemized">
+        所属: 地球<br>
+        趣味: VRChat　たのしいよ
+    </div>
     <h2>Programming</h2>
-    <ul>
-        <li>競プロ（Atcoder青　C++, Python）</li>
-        <li>ゲーム開発（簡単なゲーム　Python）</li>
-    </ul>
+    <div class="itemized">
+        競プロ（Atcoder青　C++, Python）<br>
+        ゲーム開発（簡単なゲーム　Python）
+    </div>
     <h2>ひとこと</h2>
-    <a href="https://booth.pm/ja/items/2559783">ラスクちゃん</a>のアバターを買ってあなたも幸せになりましょう！
+    <div class="itemized">
+        <a href="https://booth.pm/ja/items/2559783">ラスクちゃん</a>かわいいよ
+    </div>
+    <h2>おまけ</h2>
+    <div class="itemized">
+        <button onclick="countUp()">ここ</button>を押して私に単位をください<br>
+        私の受け取った単位：<span id="score">0</span><br>
+    </div>
 </body>
 </html>
